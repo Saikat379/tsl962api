@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15006" started-at="2021-10-08T12:48:36Z" finished-at="2021-10-08T12:48:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15006" started-at="2021-10-08T12:48:36Z" finished-at="2021-10-08T12:48:51Z">
+      <class name="day2.PositiveContactList">
+        <test-method status="PASS" signature="addingContact()[pri:0, instance:day2.PositiveContactList@309e345f]" name="addingContact" duration-ms="12815" started-at="2021-10-08T12:48:36Z" description="Getting specific Contact " finished-at="2021-10-08T12:48:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingContact -->
+        <test-method status="PASS" signature="UpdatingContact()[pri:0, instance:day2.PositiveContactList@309e345f]" name="UpdatingContact" duration-ms="743" started-at="2021-10-08T12:48:49Z" description="Getting specific Contact " depends-on-methods="day2.PositiveContactList.addingContact" finished-at="2021-10-08T12:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdatingContact -->
+        <test-method status="PASS" signature="getSpecificContact3()[pri:0, instance:day2.PositiveContactList@309e345f]" name="getSpecificContact3" duration-ms="646" started-at="2021-10-08T12:48:50Z" description="Getting specific Contact " depends-on-methods="day2.PositiveContactList.UpdatingContact" finished-at="2021-10-08T12:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSpecificContact3 -->
+        <test-method status="PASS" signature="deletingSpecificContact3()[pri:0, instance:day2.PositiveContactList@309e345f]" name="deletingSpecificContact3" duration-ms="665" started-at="2021-10-08T12:48:50Z" description="Deleting specific Contact" depends-on-methods="day2.PositiveContactList.getSpecificContact3" finished-at="2021-10-08T12:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletingSpecificContact3 -->
+      </class> <!-- day2.PositiveContactList -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
